@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import AnnouncementBar from './components/AnnouncementBar';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';

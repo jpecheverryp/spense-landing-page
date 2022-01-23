@@ -1,0 +1,14 @@
+.announcement-bar {
+  background-color: black;
+  color: white;
+  display: flex;
+  max-height: 116px;
+  height: fit-content;
+  padding: 1rem 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  &__text {
+    line-height: 20px;
+    text-align: center;
+  }
+}

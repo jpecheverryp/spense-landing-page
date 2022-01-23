@@ -111,8 +111,8 @@ input {
 }
 
 .announcement-bar {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,6 +120,7 @@ input {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  width: 100%;
   padding: 1rem 2.5rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -135,8 +136,47 @@ input {
   text-align: center;
 }
 
+.navbar {
+  margin: 2.5rem 5.65rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__brand {
+  font-weight: 600;
+}
+
+.navbar__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__item {
+  margin-left: 1.75rem;
+}
+
+.navbar__register {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
 
 .underline {

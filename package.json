@@ -1,0 +1,20 @@
+{
+  "name": "spense-landing-page",
+  "version": "1.0.0",
+  "description": "Codewell Challenge - Page for writers",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "cd spense && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpecheverryp/spense-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpecheverryp/spense-landing-page/issues"
+  },
+  "homepage": "https://github.com/jpecheverryp/spense-landing-page#readme"
+}

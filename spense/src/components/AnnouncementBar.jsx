@@ -7,7 +7,7 @@ const AnnouncementBar = () => {
         🎉 To celebrate Spense's launch, we will be waiving all fees for the
         entire month of April.{' '}
         <span className='underline'>
-          You will be receiving 100% fo the earnings.
+          You will be receiving 100% of the earnings.
         </span>{' '}
         🎉
       </p>

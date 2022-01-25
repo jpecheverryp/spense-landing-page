@@ -7,8 +7,10 @@ function App() {
   return (
     <div className='App'>
       <AnnouncementBar />
-      <Navbar />
-      <Hero />
+      <div className='app-padding'>
+        <Navbar />
+        <Hero />
+      </div>
     </div>
   );
 }

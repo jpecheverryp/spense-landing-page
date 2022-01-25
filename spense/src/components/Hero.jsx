@@ -3,8 +3,13 @@ import heroImg from '../assets/HeroImage(Desktop).png';
 const Hero = () => {
   return (
     <section className='hero'>
+      <div className='img-container'>
+        <img src={heroImg} alt='Woman working in a laptop inside a cafeteria' />
+      </div>
       <section className='hero__text'>
-        <h1>Share your unfiltered thoughts. Get paid.</h1>
+        <h1 className='hero__heading'>
+          Share your unfiltered thoughts. Get paid.
+        </h1>
         <p>
           Spense is an open platform for individuals to share their unfiltered
           thoughts. Discuss the topics you love, and get paid for{' '}
@@ -20,9 +25,6 @@ const Hero = () => {
           <button>Get Started</button>
         </form>
       </section>
-      <div className='img-container'>
-        <img src={heroImg} alt='Woman working in a laptop inside a cafeteria' />
-      </div>
     </section>
   );
 };
